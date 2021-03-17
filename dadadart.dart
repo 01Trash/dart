@@ -50,4 +50,8 @@ void main() {
     default:
       print("Error!");
   }
+  // for, foreach, while
+  for (var i = 0; i < 10; i++) {
+    print("Numbers: $i");
+  }
 }
