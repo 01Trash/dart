@@ -1,6 +1,5 @@
-// Dart temelleri..
 /* 
- Yorum satırı yazıyorum.. 
+ Dart temelleri..
  */
 
 void main() {
