@@ -32,4 +32,22 @@ void main() {
   } else {
     print("You fucked up");
   }
+  // switch && case
+  var operation = "SUM";
+  switch (operation) {
+    case 'SUM':
+      print("Sum");
+      break;
+    case 'EXTRACTION':
+      print("Extraction");
+      break;
+    case 'DIVISION':
+      print("Divison");
+      break;
+    case 'MULTIPLICATION':
+      print("Multiplication");
+      break;
+    default:
+      print("Error!");
+  }
 }
