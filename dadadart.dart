@@ -51,7 +51,19 @@ void main() {
       print("Error!");
   }
   // for, foreach, while
+  // FOR
   for (var i = 0; i < 10; i++) {
     print("Numbers: $i");
+  }
+  // FOREACH
+  var array = [0, 2, 5, 8, 12, 25, 60, 98];
+  for (var item in array) {
+    print(item);
+  }
+  // WHILE
+  int number = 10;
+  while (number > 0) {
+    number--;
+    print("Number: $number");
   }
 }
