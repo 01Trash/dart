@@ -20,4 +20,16 @@ void main() {
   } else {
     print("a = b");
   }
+  // boolean
+  bool time = true;
+  bool info = true;
+  if (time == true && info == true) {
+    print("You are good");
+  } else if (time == true && info == false) {
+    print("Not bad");
+  } else if (time == false && info == true) {
+    print("Not bad");
+  } else {
+    print("You fucked up");
+  }
 }
